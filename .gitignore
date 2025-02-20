@@ -1,0 +1,48 @@
+# Environment variables
+.env
+.env.local
+
+# Go build files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace file
+go.work
+
+# Binary output directory
+/bin/
+/dist/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+/vendor/
+
+# Test binary, built with 'go test -c'
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Swagger generated files
+docs/swagger/*
+!docs/swagger/.gitkeep
+
+# Log files
+*.log
+
+# Database volume
+postgres_data/
